@@ -1,0 +1,99 @@
+body {
+  background-color: #eaeaea;
+}
+
+.ui.fixed.menu {
+  background-color:#ed1165;
+}
+
+.ui.main.container {
+  margin-top: 7em;
+}
+
+.masthead {
+  display: flex;
+  align-items: center;
+  background-color:#ed1165 !important;
+  height: 100vh;
+}
+
+.masthead h1.ui.header{
+  font-size: 4em;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15);
+}
+
+.ui.btn {
+  background-color: #1089c0;
+  color: #ffffff;
+}
+
+.ui.btn:hover {
+  background-color: #1696ce;
+  color: #ffffff;
+}
+
+.ui.pink-btn {
+  background-color: #c7005b;
+  color: #ffffff;
+}
+
+.ui.pink-btn:hover {
+  background-color: #d8005e;
+  color: #ffffff;
+}
+
+.ui.pink-label {
+  background-color: #d8005e;
+  color: #ffffff;
+}
+
+.feed {
+  flex: 0.6;
+  margin: 0 20;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.feed-inputContainer{
+  background-color: #ffffff;
+  padding: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.feed-input {
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  display: flex;
+  padding: 10px;
+  color: gray;
+  padding-left: 15px;
+}
+
+.feed-input > form {
+  display: flex;
+  width: 100%;
+}
+
+.feed-input > form > input {
+  border: none;
+  flex: 1;
+  margin-left: 10px;
+  outline-width: 0;
+  font-weight: 600;
+}
+
+.feed-input > form > button {
+  display: none;
+}
